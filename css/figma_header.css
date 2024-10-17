@@ -1,0 +1,43 @@
+body {
+    background-color: #aaa;
+}
+
+h1 {
+    color: white;
+}
+
+.row {
+    background-color: #2390DC;
+    height: 100px;
+
+}
+
+.header-link {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+.header-link:hover {
+    color: #80C0EE;
+}
+
+.header-logo a {
+    color: #F1E67D;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.header-button {
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 10px;
+    width: 120px;
+
+
+}
+
+.header-button a {
+    color: white;
+    text-decoration: none;
+}

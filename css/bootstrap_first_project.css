@@ -1,0 +1,170 @@
+
+header {
+    background-color: #fff;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #252B42;
+    margin: 0 40px;
+    font-size: 1.3rem;
+}
+
+.offcanvas-title {
+    color: #ffff;
+}
+
+.nav-link {
+    color: #7c7b7b;
+}
+
+.header-link:hover {
+    color: #FA4A0C;
+    transition: all 0.3s;
+}
+
+.main-title {
+    font-size: 1.35rem; /* Базовый размер для всех экранов */
+}
+
+.main-text {
+    font-size: 2rem;
+}
+
+.main-subtitle  {
+    font-size: 1.35rem;
+}
+
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 1.15rem; /* Базовый размер для всех экранов */
+    }
+
+    .main-text {
+        font-size: 1.5rem;
+    }
+
+    .main-subtitle {
+        font-size: 1.15rem;
+    }
+
+    .btn1, .btn2 {
+            font-size: 0.40rem;  /* Уменьшаем шрифт для планшетов */
+            padding: 0.45rem 0.65rem;
+            margin-bottom: 10px/* Уменьшаем паддинги */
+             /* Кнопки занимают 100% ширины на планшетах */
+        }
+}
+
+
+@media (max-width: 700px) {
+    .main-title {
+        font-size: 0.90rem; /* Базовый размер для всех экранов */
+    }
+
+    .main-text {
+        font-size: 1rem;
+    }
+
+    .main-subtitle {
+        font-size: 0.90rem;
+    }
+
+    .btn1 {
+        font-size: 0.5rem;
+        margin-bottom: 10px;
+    }
+
+    .btn2 {
+        font-size: 0.5rem;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .main-title {
+        font-size: 0.70rem; /* Базовый размер для всех экранов */
+    }
+
+    .main-text {
+        font-size: .80rem;
+    }
+
+    .main-subtitle {
+        font-size: 0.70rem;
+    }
+
+    .btn1, .btn2 {
+            font-size: 0.10rem;  /* Ещё меньше шрифт для мобильных устройств */
+            padding: 0.1rem 0.2rem;  /* Ещё меньше паддинги */
+
+        }
+}
+
+.container-fluid, .row, .col {
+    padding: 0;
+    margin: 0;
+}
+
+
+.main, .my-order {
+    position: relative;
+    height: auto;
+}
+
+.overlay-content {
+    position: absolute; /* абсолютное позиционирование, чтобы быть поверх изображения */
+    top: 50%; /* Центрирование по вертикали */
+    left: 50%; /* Центрирование по горизонтали */
+    transform: translate(-50%, -50%); /* Перемещение для полного центрирования */
+    text-align: center;
+}
+
+
+.btn1, .btn2 {
+    border: 0;
+    padding: 16px 60px;
+    border-radius: 30px;
+    background: #FA4A0C;
+    margin-bottom: 5px;
+
+}
+
+.btn2 {
+    margin-left: 16px;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.card-title {
+    font-size: 2.25rem;
+}
+
+.card-text-first {
+    color: #FA4A0C;
+    font-size: 1.3rem;
+    margin: 0;
+
+}
+
+.card-text-second {
+    color: #737373;
+    font-size: 1.3rem;
+}
+
+.btn1-order {
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 16px;
+
+}
+
+.btn2-order {
+    border-radius: 10px;
+    padding: 16px 50px;
+}
+
+.my-order {
+    margin-top: 150px;
+}
